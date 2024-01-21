@@ -5,7 +5,7 @@ using namespace std;
 
 int menu()
 {
-    int odp;
+    int ret;
     cout<<"1|  Add an element to the end of the array"<<endl;
     cout<<"2|  Delete an element of the array"<<endl;
     cout<<"3|  Add an element in the chosen place"<<endl;
@@ -14,8 +14,8 @@ int menu()
     cout<<"6|  Save to file"<<endl;
     cout<<"7|  End"<<endl;
 
-    cin>>odp;
-    return odp;
+    cin>>ret;
+    return ret;
 }
 
 
